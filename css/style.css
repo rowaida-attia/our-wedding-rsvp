@@ -9731,6 +9731,7 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-gallery {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/gallery.jpg), no-repeat center center;
   background-size: cover;
+  background-position: center;
 }
 
 .gallery-carousel .owl-nav {
