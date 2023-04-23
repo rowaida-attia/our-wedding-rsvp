@@ -7386,14 +7386,32 @@ button.bg-dark:focus {
 }
 
 .mb-12 {
-  font-size: 2.5rem;
-  font-family: 'Pacifico', 'Lucida Handwriting', Cursive;
+  font-size: 3rem;
+  font-family: 'Clicker Script', 'Lucida Handwriting', Cursive;
+}
+
+@media (max-width: 1200px) {
+  .mb-12 {
+    font-size: calc(1.25rem + 2.7vw) ;
+  }
+}
+
+@media (max-width: 1200px) {
+  .mb-2 {
+    font-size: calc(0.1rem + 2.7vw) ;
+  }
 }
 
 .m-00 {
   margin: 0 !important;
   font-size:1.2rem;
   font-weight: 1000;
+}
+
+@media (max-width: 1200px) {
+  .m-00 {
+    font-size: calc(0.2rem + 2.7vw) ;
+  }
 }
 
 .ml-2,
