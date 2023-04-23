@@ -7380,8 +7380,20 @@ button.bg-dark:focus {
 }
 
 .mb-2,
+.mb-12,
 .my-2 {
   margin-bottom: 0.5rem !important;
+}
+
+.mb-12 {
+  font-size: 2.5rem;
+  font-family: 'Pacifico', 'Lucida Handwriting', Cursive;
+}
+
+.m-00 {
+  margin: 0 !important;
+  font-size:1.2rem;
+  font-weight: 1000;
 }
 
 .ml-2,
