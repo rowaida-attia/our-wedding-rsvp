@@ -296,29 +296,67 @@
       </div>
     </div>
     <div class="section-map" data-aos="fade-up" data-aos-easing="linear">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.2755839824904!2d31.227438075434947!3d30.02895067493127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145847326973319b%3A0x2bb659e7c0bb809d!2sPrince%20Mohamed%20Ali%20Palace%20(Al%20Manial%20Palace)!5e0!3m2!1sen!2seg!4v1681898522203!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488.02932049241286!2d31.227751854484048!3d30.0276216533156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458478f25808a65%3A0xfca48274030ea017!2sPrince%20Mohamed%20Ali%20Palace!5e0!3m2!1sen!2seg!4v1684790290118!5m2!1sen!2seg" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   </div>
 </div>
 <!-- Event End -->
 
 
-<!-- Thank You Start -->
-<div class="container-fluid py-5 centered" id="rsvp">
-<div class="container py-5">
-  <div class="section-title position-relative text-center">
-    <h1 class="font-secondary display-4">Sorry</h1>
-    <i class="far fa-heart text-dark"></i>
-  </div>
-  <div class="row justify-content-center">
-    <div class="col-md-12 text-center">
-      <h5 class="font-weight-normal text-muted mb-13 pb-3">So sorry, the portal to RSVP is closed, please contact us for arrangements.</h5>
-      <h5 class="font-weight-normal text-muted mb-13 pb-3">Rowaida: +201001101047 & Sherif: +201068509463</h5>
+<!-- RSVP Start -->
+<div class="container-fluid py-5" id="rsvp">
+  <div class="container py-5">
+    <div class="section-title position-relative text-center">
+      <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">RSVP</h6>
+      <h1 class="font-secondary display-4">Join Our Party</h1>
+      <i class="far fa-heart text-dark"></i>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6 text-center">
+        <h5 class="font-weight-normal text-muted mb-3 pb-3">We wish your children sweet dreams</h5>
+      </div>
+      <div class="col-lg-8">
+        <div class="text-center">
+          <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyefw9QIiLZneSpdgr-8JiU1WoTVNfMtS-KLE-O-kDLAws4_kgPyi0zdRu77fyt8dW_/exec">
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <input name="name" type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name" required="required"/>
+              </div>
+              <div class="form-group col-sm-6">
+                <input name="number" type="tel" class="form-control bg-secondary border-0 py-4 px-3" pattern="[0-9]{11}" placeholder="Your Number (01XXXXXXXXX)" required="required"/>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-12" id="attending-radio">
+                <div class="form-control bg-secondary border-0 py-4 px-3" style="height:100px; text-align:left;">
+                  <input type="radio" id="attending" name="attending" value="attending" onclick="javascript:attendingCheck();" required>
+                  <label for="attending">  Attending!</label><br>
+                  <input type="radio" id="not-attending" name="attending" value="not-attending" onclick="javascript:attendingCheck();">
+                  <label for="not-attending">  Not Attending :(</label><br>
+                </div>
+              </div>
+              <div class="form-group col-sm-6" id="plus-one-radio" style="display:none;">
+                <div class="form-control bg-secondary border-0 py-4 px-3" style="height:100px; text-align:left;">
+                  <input type="radio" id="alone" name="plus-one" value="alone" checked>
+                  <label for="alone">  Alone</label><br>
+                  <input type="radio" id="plus-one" name="plus-one" value="plus-one">
+                  <label for="plus-one">  Plus one</label><br>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message"></textarea>
+            </div>
+            <div>
+              <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-</div>
-<!-- Thank You End -->
+<!-- RSVP End -->
 
 
 <!-- Footer Start -->
